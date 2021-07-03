@@ -1,9 +1,12 @@
 :root {
   --branding-color: #5d2a42;
+  --secondary-color: #ffdccc;
+  --heading-font-family: "Playfair Display", sans-serif;
+  --paragraph-font-family: "Poppins", sans-serif;
 }
 
 .hero {
-  background: #ffdccc;
+  background: var(--secondary-color);
   text-align: center;
   padding: 160px;
 }
@@ -14,12 +17,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: bold;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--paragraph-font-family);
   font-weight: normal;
 }
 
@@ -34,7 +37,7 @@ h1 {
 }
 
 .hero h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--paragraph-font-family);
   font-weight: normal;
   font-size: 24px;
   line-height: 2;
