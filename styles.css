@@ -60,6 +60,11 @@ h2 {
   font-size: 18px;
 }
 
+.btn-branding:hover {
+  background: var(--btn-learn-color);
+  color: white;
+}
+
 .btn-learn-more {
   background: var(--btn-learn-color);
   padding: 15px 30px;
@@ -67,6 +72,10 @@ h2 {
   border-radius: 4px;
   line-height: 27px;
   font-size: 18px;
+}
+
+.project-intro {
+  padding: 0 12px;
 }
 
 .project-spacing {
@@ -79,16 +88,18 @@ h2 {
   }
 
   .hero p {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
   }
 
   .hero h2 {
     line-height: 1.5;
+    font-size: 20px;
   }
 
   h1 {
     font-size: 55px;
+    margin-bottom: 30px;
   }
 
   h2 {
