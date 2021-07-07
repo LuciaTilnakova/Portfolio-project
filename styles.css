@@ -87,21 +87,31 @@ h2 {
   border-radius: 10px;
 }
 
-.about-section {
+.content-container {
   padding: 120px;
 }
 
-.about-section-content {
+.content {
   margin: 30px;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--paragraph-font-family);
+}
+
+.content h3 {
+  font-size: 24px;
+  font-family: var(--paragraph-font-family);
+  margin: 20px 0 0;
+}
+
+.content p {
+  font-size: 14px;
 }
 
 @media (max-width: 960px) {
@@ -133,7 +143,7 @@ h2 {
     text-align: center;
   }
 
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 20px;
   }
