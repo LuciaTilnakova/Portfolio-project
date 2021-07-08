@@ -37,7 +37,7 @@ nav a:hover {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px;
+  padding: 80px 20px;
 }
 
 h1,
@@ -65,7 +65,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -120,7 +120,7 @@ h4 {
 }
 
 .content-container {
-  padding: 120px;
+  padding: 60px 20px;
 }
 
 .content {
@@ -192,10 +192,6 @@ footer .social-links a:hover {
     justify-content: center;
   }
 
-  .hero {
-    padding: 80px;
-  }
-
   .hero p {
     font-size: 25px;
     font-weight: bold;
@@ -223,5 +219,9 @@ footer .social-links a:hover {
   .content-container {
     text-align: center;
     padding: 20px;
+  }
+
+  .content-container h1 {
+    font-size: 50px;
   }
 }
