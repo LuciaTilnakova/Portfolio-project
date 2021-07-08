@@ -6,6 +6,34 @@
   --paragraph-font-family: "Poppins", sans-serif;
 }
 
+nav {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  text-decoration: none;
+  line-height: 40px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+}
+
+nav li.active a,
+nav a:hover {
+  color: var(--btn-learn-color);
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -115,6 +143,11 @@ h2 {
 }
 
 @media (max-width: 960px) {
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
   .hero {
     padding: 80px;
   }
