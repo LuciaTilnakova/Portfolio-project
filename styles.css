@@ -12,6 +12,12 @@ nav {
   justify-content: space-between;
 }
 
+nav .nav-name {
+  color: var(--btn-learn-color);
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
 nav ul {
   margin: 0;
   padding: 0;
@@ -160,7 +166,9 @@ footer .contact-box p {
   margin: 0;
 }
 
-footer .email-link {
+footer .email-link,
+.project-link,
+.email-link {
   color: black;
   text-decoration: none;
   font-size: 24px;
@@ -168,7 +176,9 @@ footer .email-link {
   font-weight: medium;
 }
 
-footer .email-link:hover {
+footer .email-link:hover,
+.project-link:hover,
+.email-link:hover {
   color: var(--btn-learn-color);
 }
 
@@ -190,6 +200,10 @@ footer .social-links a:hover {
   nav {
     display: flex;
     justify-content: center;
+  }
+
+  nav .nav-name {
+    display: none;
   }
 
   .hero p {
@@ -223,5 +237,9 @@ footer .social-links a:hover {
 
   .content-container h1 {
     font-size: 50px;
+  }
+
+  .my-photo {
+    max-width: 100%;
   }
 }
